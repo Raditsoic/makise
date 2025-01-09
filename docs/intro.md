@@ -1,3 +1,7 @@
+---
+position: 1
+---
+
 # Makise Kurisu
 
 Alright, listen up. This isn’t some fluffy, feel-good blog about kittens and rainbows. I’m Makise Kurisu, and while you might know me from… other endeavors, I'm here to do something practical for once. Forget the time machines for a moment, and let’s focus on something that's actually… well, sort of universally applicable.

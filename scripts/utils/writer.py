@@ -62,14 +62,18 @@ def write_markdown_file(content_data: dict, category_dir: str) -> None:
     file_name = content_data['title']
     
     # Convert spaces to hyphens, remove non-alphanumeric characters (except hyphens and underscores), and make lowercase
-    file_name = re.sub(r'[^a-zA-Z0-9\s-]', '', file_name)  # remove non-alphanumeric characters
-    file_name = file_name.lower()  # make lowercase
-    file_name = re.sub(r'[\s]+', '-', file_name)  # replace spaces with hyphens
+    refactored_file_name = file_name.lower()  # make lowercase
+    refactored_file_name = re.sub(r'[^a-zA-Z0-9\s-]', '', refactored_file_name)  # remove non-alphanumeric characters
+    refactored_file_name = re.sub(r'[\s]+', '-', refactored_file_name)  # replace spaces with hyphens
 
-    file_path = os.path.join(category_dir, f"{file_name}.md")
+    file_path = os.path.join(category_dir, f"{refactored_file_name}.md")
+    
     with open(file_path, "a") as f:
-        f.write(f"""---
-sidebar-position: {get_next_file_position(category_dir)}
+        f.write(f"""\
+--- 
+sidebar-position: {get_next_file_position(category_dir)} 
+title: {file_name} 
+description: {content_data['description']}
 ---
 """)
         f.write(content_data["content"])

@@ -2,7 +2,6 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from utils import prompt_template, clean_and_parse_response, write_markdown_file
 from dotenv import load_dotenv
 import random
-import json
 import os
 
 load_dotenv()

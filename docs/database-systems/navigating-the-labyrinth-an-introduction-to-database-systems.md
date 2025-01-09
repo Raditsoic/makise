@@ -1,5 +1,7 @@
 ---
 sidebar-position: 1
+title: "Navigating the Labyrinth: An introduction to Database Systems"
+description: "Introduction to Database System"
 ---
 Greetings, fellow intellects. While my primary focus remains the intricate dance of temporal mechanics, I recognize the crucial role of data management in every scientific endeavor. Today, we delve into the world of **Database Systems**, the very foundation upon which we organize and analyze the vast amounts of information that drive our understanding of the universe – and indeed, even potential time travel. 
 

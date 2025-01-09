@@ -5,6 +5,7 @@ import json
 class Response(BaseModel):
     title: str
     topic: str
+    description: str
     summary: str
     content: str
 
@@ -12,6 +13,7 @@ class Response(BaseModel):
         return {
             "title": self.title,
             "topic": self.topic,
+            "description": self.description,
             "summary": self.summary,
             "content": self.content
         }

@@ -1,19 +1,10 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+slice-of-life:
+  label: Slice of life
+  permalink: /slice-of-life
+  description: Slice of life tag description
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+makise:
+  label: Makise
+  permalink: /makise
+  description: Makise tag description
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
-
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description

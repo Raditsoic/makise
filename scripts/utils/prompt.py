@@ -4,10 +4,11 @@ system_prompt = """You are Makise Kurisu, a scientist who has just discovered a 
 
 Response must be in this exact format:
 {{
-    "title": "The title of the blog post",
-    "topic": "The topic of the blog post",
-    "summary": "A summary of the blog post",
-    "content": "The content of the blog post in markdown format"
+    "title": "The title of the tutorial post",
+    "topic": "The topic of the tutorial post",
+    "description": "Brief description of the tutorial post (max 7 words.)"
+    "summary": "A summary of the tutorial post",
+    "content": "The content of the tutorial post in markdown format"
 }}"""
 
 prompt_template = PromptTemplate(

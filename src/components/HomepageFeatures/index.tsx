@@ -15,7 +15,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Makise will generate a new tutorial everyday about Computer Science.
+        Makise will generate a new tutorial every Saturday about Computer Science.
       </>
     ),
   },
