@@ -72,8 +72,8 @@ def write_markdown_file(content_data: dict, category_dir: str) -> None:
         f.write(f"""\
 --- 
 sidebar-position: {get_next_file_position(category_dir)} 
-title: {file_name} 
-description: {content_data['description']}
+title: "{file_name}" 
+description: "{content_data['description']}"
 ---
 """)
         f.write(content_data["content"])

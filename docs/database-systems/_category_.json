@@ -2,6 +2,7 @@
   "label": "Database Systems",
   "position": 2,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "HMIT Web Development Club's Repository"
   }
 }

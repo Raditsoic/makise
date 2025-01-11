@@ -1,5 +1,6 @@
 ---
-position: 1
+sidebar-position: 1
+title: Introduction
 ---
 
 # Makise Kurisu

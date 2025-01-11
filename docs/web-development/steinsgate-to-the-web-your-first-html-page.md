@@ -1,7 +1,7 @@
 --- 
 sidebar-position: 1 
-title: Steins;Gate to the Web: Your First HTML Page 
-description: Create a basic HTML page structure.
+title: "Steins;Gate to the Web: Your First HTML Page"
+description: "Create a basic HTML page structure."
 ---
 Alright, let's get started. You might be thinking, 'Why are we bothering with something as seemingly mundane as web development when time travel is so much more interesting?' Well, even the most groundbreaking scientific theories need a way to be communicated. And what better way to do that than with the internet? So, buckle up, this isn't the mad scientist's lab, but it's where we'll build the foundation for your digital presence.
 
